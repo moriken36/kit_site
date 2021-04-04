@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
-body {
-  color: #000;
-  background-color: #fff;
-  font-family: "Droid Serif", YuGothic, "游ゴシック", sans-serif;
-}
+html{ font-size:14px; line-height:1.5; font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif; }
+a:hover{ transition: 0.3s ease-in-out;}
+a{transition: 0.3s ease-in-out;}
 

@@ -2,12 +2,12 @@
 
 body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 
-.navbar-brand{font-size:x-large; font-family: 'Bangers', cursive;}
+.navbar-brand{font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";; font-size:x-large}
+.navbar{position:fixed; width:100%; margin-top:-20px}
 
-h3{ font-weight:bold;}
-
-h3{color:#000; text-align:center; font-size:xx-large; letter-spacing:0.5em; text-indent:0.5; padding-top:40px;  margin-bottom:1rem;}
+h3{color:#000; text-align:center;letter-spacing:0.5em; text-indent:0.5; padding-top:40px;  margin-bottom:1rem;}
 .center{ text-align:center; max-width:1000px; margin:0 auto;font-size:x-large}
 
-.logo-top{width: 100vw}
-.size{color:azure;}
+.logo-top{width:100%; margin-top:50px}
+
+@media ( min-width : 769px ) {}

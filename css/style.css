@@ -12,4 +12,5 @@ h3{color:#000; text-align:center;letter-spacing:0.5em; text-indent:0.5; padding-
 
 @media ( min-width : 769px ) {}
 
-.main_v{ max-height:800px; overflow:hidden;}
+.main_v{position: relative; max-height:800px; overflow:hidden; width: 400px; height: 400px;margin: 0 auto;}
+.main_v li{float: left; width: 400px;height: 400px;}

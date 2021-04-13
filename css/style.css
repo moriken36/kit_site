@@ -5,24 +5,23 @@
 /* ナビゲーション */
 @import url("nav.css");
 
+body{background-color:white;}
 body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 
-.navbar{position:fixed; width:100%; margin-top:-20px}
-
-h3{color:#000; text-align:center;letter-spacing:0.5em; text-indent:0.5; padding-top:40px;  margin-bottom:1rem;}
-.center{ text-align:center; max-width:1000px; margin:0 auto;font-size:x-large}
-
-.logo-top{width:100%; margin-top:56px}
 
 /* フォント */
 p, li{line-height:1.75;}
 html{ font-size:13px; font-family: "Sawarabi Mincho"; background:#000; letter-spacing:0.05em;}
 h1{ color:#FFF; text-align:center; margin-top:1rem; font-size:10px;}
-h2{ color:#b2995a; text-align:center;}
+h2, h3{ color:#b2995a; text-align:center;}
 h2{ margin:30px 0 25px 0; font-size:21px;}
 h3{ font-size:35px; margin:20px 0;}
 
 .main_v{ max-height:800px; overflow:hidden;}
+
+.navbar{position:fixed; width:100%; margin-top:-20px}
+
+main p{font-size:25px}
 
 /* アコーディオンメニュー部分 */
 #menu dl{border-top:solid 1px #000;}

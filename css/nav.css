@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+header nav{ position:fixed; top:20px; left:0; z-index:101;}
+header nav .open{ cursor:pointer;}
+header nav ul li > ul{ display:none;}
+/* ヘッダー部分 */
+.head_left .logo{ display:block; width:100px; margin:1rem auto;}
+
+/* スマホの時の下のボタン */
+.spBtn{ position:fixed; bottom:0; width:100%; display:flex; flex-flow:row nowrap; justify-content:space-around; background:#000; border-top: solid thin #CCC; z-index:10;}
+.spBtn p{ text-align:center; height:50px; font-size:10px; width:33.333%; padding-top:6px;  position:relative; }
+.spBtn p a{ width:100%; display:block; height:100%; position:relative;}
+.spBtn p span{ position:absolute; bottom:6px; width:100%; text-align:center; display:block; color:#FFF;}
+.spBtn p:nth-child(1){ background:url(../img/spBtn_1.png) no-repeat; background-size:20px; background-position:center 6px; border-right: solid thin #CCC;}
+.spBtn p:nth-child(2){ background:url(../img/spBtn_2.png) no-repeat; background-size:20px; background-position:center 6px; border-right: solid thin #CCC;}
+.spBtn p:nth-child(3){ background:url(../img/spBtn_3.png) no-repeat; background-size:20px; background-position:center 6px;}
+
+
+/* スマホの時のアコーディオンナビ */
+.menu_wrap{background:#000;}
+.menu{ display:none; width: 100%; height: 100%; position:fixed; left: 0; bottom: 0; padding:20px 20px 50px 20px;   overflow:auto; background:#000; }
+.menu li{ line-height:40px; border-bottom:solid thin #CCC;}
+.menu li:last-child{ border-bottom:none;}
+.menu li a{ color:#FFF; text-decoration:none;}
+.menu li >ul{ padding-left:20px;}
+.no-scroll {  overflow: hidden;}
+
+.init-right:after {content: ''; display: inline-block; width: 6px; height: 6px; margin: 0 0 0 15px; border-right: 1px solid #fff; border-top: 1px solid #fff; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
+
+
+/*--- PCサイズ--------------------------------*/
+
+@media ( min-width : 769px ) {
+	
+	.head_left .logo{ display:block; width:100px; margin:1rem 0;}
+
+	
+	header .inner{  max-width:1040px; margin:0 auto; display:flex; justify-content: space-between; container:flex-end;}
+	header nav .menu{ position: relative; padding:0; overflow:inherit;	width: 100%; height:50px; margin: 0 auto; padding:0; background:none; display:flex; flex-flow:row nowrap; justify-content:flex-end; }
+	header nav ul li > ul{ display:block;} 
+	.spBtn{ display:none;}
+	header .inner .head_left{ width:30%;}
+	header nav{ position: relative; margin:0 auto; width:70%;}
+		
+	.menu_wrap{ background:none; position:absolute; right:0; bottom:0;}
+	.menu li{ border-bottom:0;}
+	.menu > li { height: 50px; line-height: 50px; margin-left:2rem;}
+	
+	.menu li a{ color:#FFF;}
+	.menu > li a { display: block; text-decoration:none;}	
+	.menu > li a:hover { color: #999;}
+	ul.menu__second-level {	visibility: hidden;	opacity: 0;	z-index: 1;}
+	ul.menu__third-level {	visibility: hidden;	opacity: 0;	}
+		
+	.menu > li:hover { -webkit-transition: all .5s;	transition: all .5s;}
+	
+	.menu__second-level li {border-top: 1px solid #111;	}
+	.menu__third-level li {border-top: 1px solid #111;}
+	.menu__second-level li a:hover {background: #111;}
+	.menu__third-level li a:hover {background: #2a1f1f;}
+	
+	/* 下矢印 */
+	.init-bottom:after {content: ''; display: inline-block; width: 6px; height: 6px; margin: 0 0 0 15px; border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+	
+	/* floatクリア */
+	.menu:before, .menu:after {content: " "; display: table;}
+	.menu:after { clear: both;}
+	.menu {*zoom: 1;}
+	.menu > li.menu__multi {position: relative;}
+}

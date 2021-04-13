@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@import url("reset.css");
+
+/* ナビゲーション */
+@import url("nav.css");
+
 body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 
 .navbar{position:fixed; width:100%; margin-top:-20px}
@@ -9,4 +14,45 @@ h3{color:#000; text-align:center;letter-spacing:0.5em; text-indent:0.5; padding-
 
 .logo-top{width:100%; margin-top:56px}
 
-@media ( min-width : 769px ) {}
+/* フォント */
+p, li{line-height:1.75;}
+html{ font-size:13px; font-family: "Sawarabi Mincho"; background:#000; letter-spacing:0.05em;}
+h1{ color:#FFF; text-align:center; margin-top:1rem; font-size:10px;}
+h2{ color:#b2995a; text-align:center;}
+h2{ margin:30px 0 25px 0; font-size:21px;}
+h3{ font-size:15px; margin:20px 0;}
+
+.main_v{ max-height:800px; overflow:hidden;}
+
+/* アコーディオンメニュー部分 */
+#menu dl{border-top:solid 1px #000;}
+.togb{ line-height:40px; background-color:#FFF; border-bottom:solid 1px #000; color:#b2995a; padding-left:10px; display: block; position: relative;}
+.togb:after {display: block;content: "";position: absolute;top: 50%;right: 10px;width: 6px;height: 6px;margin: -4px 0 0 0;border-top: solid 2px #b2995a;border-right: solid 2px #b2995a; -webkit-transform: rotate(45deg); transform: rotate(45deg);}
+.togb.current:after{-webkit-transform: rotate(135deg); transform: rotate(135deg);}
+.togb span{position:relative; right:0;}
+.tog{ display:none;}
+.tog ul{ padding:15px;}
+
+
+/* フッター部分 */
+footer{ border-top: solid thin #b2995a;}
+footer p{ text-align:center; padding:5px 0;}
+
+/*--- PCサイズ--------------------------------*/
+
+@media ( min-width : 768px ) {
+	/* フォント */
+	html{ font-size:16px;}
+	h1{ text-align:left;}
+	h2{ margin:100px 0 80px 0; font-size:40px;}
+
+	.twoway{ width:48.88888%; float:left; margin-right:2.222222%;}
+	.twoway:nth-child(2n){ margin-right:0;}
+
+	/* PCアコーディオンメニュー部分 */
+	.menu dl{border-top:none;}
+	.tog{ display:block; margin-bottom:30px;}
+	.togb{ background-color:inherit; color:#b2995a; border:none; padding:0; font-size:21px; margin-bottom:15px;}
+	.togb:after{ display:none;}
+	.tog ul{ padding:0;}
+}

@@ -1,0 +1,55 @@
+/* 
+	RESET - ADAPTED FROM MEYER RESET
+	URL - http://meyerweb.com/eric/tools/css/reset/
+	LICENSE - PUBLIC DOMAIN
+*/
+
+/* RESET
+----------------------------------------------------------------------------------------------------*/
+a, abbr, acronym, address, applet, article, aside, audio, 
+b, big, blockquote, body, caption, canvas, center, cite, code,
+dd, del, details, dfn, dialog, div, dl, dt, em, embed, 
+fieldset, figcaption, figure, form, footer, 
+header, hgroup, h1, h2, h3, h4, h5, h6, html, 
+i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav,
+object, ol, output, p, pre, q, ruby, 
+s, samp, section, main, small, span, strike, strong, sub, summary, sup, 
+tt, table, tbody, textarea, tfoot, thead, time, tr, th, td,
+u, ul, var, video { 
+	font-family: inherit; 
+	font-size: 100%; 
+	font-weight: inherit; 
+	font-style: inherit; 
+	vertical-align: baseline; 
+	white-space: normal;
+	text-align: center; 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	outline: 0;
+	background: transparent; 
+}
+
+textarea {
+	white-space: pre;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section, main { display: block; }
+								  
+ol, ul { 	list-style: none; }
+blockquote, q {	quotes: none; }
+table { 	border-collapse: collapse; 	border-spacing: 0; }
+
+img{ max-width:100%; height: auto; vertical-align:bottom;}
+
+
+* { 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	*behavior: url(/scripts/boxsizing.htc); 
+	/*	If you need support for IE7 and lower make 
+		sure the boxsizing.htc file is linked properly.
+		More info here:  https://github.com/Schepp/box-sizing-polyfill */
+}

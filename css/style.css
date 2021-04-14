@@ -7,8 +7,93 @@
 
 body{background-color:white;}
 body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
+/*daishiの追加分*/
+
+.icon{
+	color:white;
+}
+
+.textopen{
+	font-size:25px;
+	font-weight:1500;
+	text-align: center;
+}
+.contents{
+	height:650px;
+	background-color: rgba(51, 54, 92, 0.5);
+	margin-top:20px;
+	
+}
+
+.top{
+	width: 17%;
+	margin:10% 8% 0px 8%;
+	padding-top: 10%;
+}
 
 
+
+.box-text{
+	margin-left:35%;
+	margin-right:10%;
+	font-size:15px;
+	font-weight: 1200;
+	letter-spacing: 0.9em;
+	line-height: 1.5em;
+	color: white;
+}
+
+.box-text p{
+	float:left;
+	
+}
+
+
+.bottom{
+	margin-top:5%;
+	float:right;
+	margin-left:8%;
+}
+
+.box-img{
+	opacity:0.8px;
+}
+
+.bottom p{
+	font-size:12px;
+	font-weight:500;
+	text-align: right;
+	color: white;
+}
+
+.clear{
+	margin-bottom:800px;
+}
+
+
+
+
+
+/*for tablett*/
+@media all and (max-width:1000px){
+	.box-contents{
+		width:72%;
+		margin:14px 14%;
+	}
+	.left{
+		padding-left:0px;
+		font-size:14px;
+	}
+	.right{
+		padding-right:0px;
+	}
+	.right p{
+		text-align: left;
+	}
+	
+	
+
+}
 /* フォント */
 p, li{line-height:1.75;}
 html{ font-size:13px; font-family: "Sawarabi Mincho"; background:#000; letter-spacing:0.05em;}
@@ -21,7 +106,7 @@ h3{ font-size:35px; margin:20px 0;}
 
 .navbar{position:fixed; width:100%; margin-top:-20px}
 
-main p{font-size:25px}
+
 
 /* アコーディオンメニュー部分 */
 #menu dl{border-top:solid 1px #000;}

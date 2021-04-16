@@ -19,7 +19,7 @@ body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 	text-align: center;
 }
 .contents{
-	height:650px;
+	height:725px;
 	background-color: rgba(51, 54, 92, 0.5);
 	margin-top:20px;
 	
@@ -27,8 +27,8 @@ body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 
 .top{
 	width: 17%;
-	margin:10% 8% 0px 8%;
-	padding-top: 10%;
+	margin:15% 8% 0px 8%;
+	padding-top: 6%;
 }
 
 
@@ -41,32 +41,56 @@ body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 	letter-spacing: 0.9em;
 	line-height: 1.5em;
 	color: white;
+	
+	
 }
 
 .box-text p{
 	float:left;
-	
+	z-index: 1;
 }
 
 
+
+
+
 .bottom{
-	margin-top:5%;
-	float:right;
-	margin-left:8%;
+	margin-top:330px;
+	margin-left:23%;
+	border:solid 2px rgb(58, 66, 80);
+	border-right: unset;
+	position:absolute;
 }
 
 .box-img{
 	opacity:0.8px;
+	
 }
 
 .bottom p{
 	font-size:12px;
 	font-weight:500;
 	text-align: right;
-	color: white;
+	color: rgb(4, 22, 56);
+	
 }
 
-.clear{
+#about{
+	position:absolute;
+	font-size:15vw;
+	font-weight: 2000;
+	font-style: inherit;
+	transform:scale(1,1.8);
+	color: rgba(162, 163, 182, 0.6);
+	padding-top:170px;
+	
+}
+
+
+
+
+
+.bottom-space{
 	margin-bottom:800px;
 }
 
@@ -74,25 +98,32 @@ body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 
 
 
+
 /*for tablett*/
 @media all and (max-width:1000px){
-	.box-contents{
-		width:72%;
-		margin:14px 14%;
-	}
-	.left{
-		padding-left:0px;
-		font-size:14px;
-	}
-	.right{
-		padding-right:0px;
-	}
-	.right p{
-		text-align: left;
-	}
 	
-	
+	.top{
+		margin-left:unset;
+		margin-bottom:8% ;
+		width:100%;
+		text-align: center;
+		
+	}
 
+	.top img{
+		width:140px;
+	}
+	.box-text{
+		margin-left:10%;
+		font-size:13px;
+		
+
+	}
+	.bottom{
+		margin:5% 0px 0px 0px;
+		border-left:unset;
+		border-bottom: unset;
+	}
 }
 /* フォント */
 p, li{line-height:1.75;}

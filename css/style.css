@@ -59,8 +59,8 @@ h3{ font-size:35px; margin:20px 0;}
 .navbar{position:fixed; width:100%; margin-top:-20px}
 
 .fadein {
-	opacity : 0.1;
-	transform : translate(0, 50px);
+	opacity : 0.0;
+	transform : translate(0, 150px);
 	transition : all 500ms;
 }
 

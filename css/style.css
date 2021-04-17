@@ -98,7 +98,7 @@ footer p{ text-align:center; padding:5px 0;}
 
 	/* トピックス部分 */
 	#topics .wh{ padding:15px; margin-bottom:60px; overflow:hidden; }
-	#topics .2way ul li{ line-height:2.28;}
+	#topics  ul li{ line-height:2.28;}
 	#topics  h3{ font-size:21px; margin-bottom:15px; padding-bottom:15px; border-bottom:solid thin black;}
 
 	/* PCアコーディオンメニュー部分 */

@@ -57,10 +57,21 @@ h3{ font-size:35px; margin:20px 0;}
 .main_v{ max-height:800px; overflow:hidden;}
 
 .navbar{position:fixed; width:100%; margin-top:-20px}
-.animated {opacity: 1;}
+
+.fadein {
+	opacity : 0.1;
+	transform : translate(0, 50px);
+	transition : all 500ms;
+}
+
+/* 画面内に入った状態 */
+.fadein.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+}
 
 @media print {
-	.animated {
+	.fadein {
 	  /* すべて表示 */
 	  opacity: 1;
 	}

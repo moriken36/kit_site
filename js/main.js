@@ -1,12 +1,12 @@
-$('.animated').waypoint({
-    handler(direction) {
-      if (direction === 'down') {
-        $(this.element).addClass('fadeInUp');
-        $(this.element).removeClass('fadeOutUp');
-      }else if (direction === 'up') {
-        $(this.element).addClass('fadeOutUp');
-        $(this.element).removeClass('fadeInUp');
-      }
-    },
-    offset: '50%',
-  });
+$(function(){
+	$(window).scroll(function (){
+		$('.fadein').each(function(){
+			var elemPos = $(this).offset().top;
+			var scroll = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (scroll > elemPos - windowHeight + 100){
+				$(this).addClass('scrollin');
+			}
+		});
+	});
+});

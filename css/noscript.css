@@ -9,7 +9,7 @@
   display: block;
 }
 
-.animated {
+.fadein {
   /* すべて表示 */
   opacity: 1;
 }

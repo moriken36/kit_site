@@ -78,7 +78,7 @@ h3{ font-size:35px; margin:20px 0;}
 #topics ul li{ text-align:center;}
 
 /* フッター部分 */
-footer{ border-top: solid thin #b2995a;}
+footer{ border-top: solid thin #b2995a; height: 30px;}
 footer p{ text-align:center; padding:5px 0;}
 
 /*--- PCサイズ--------------------------------*/

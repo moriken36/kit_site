@@ -59,6 +59,13 @@ h3{ font-size:35px; margin:20px 0;}
 .navbar{position:fixed; width:100%; margin-top:-20px}
 .animated {opacity: 0;}
 
+@media print {
+	.animated {
+	  /* すべて表示 */
+	  opacity: 1;
+	}
+}
+
 
 /* アコーディオンメニュー部分 */
 #menu dl{border-top:solid 1px #000;}

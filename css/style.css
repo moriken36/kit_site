@@ -57,7 +57,7 @@ h3{ font-size:35px; margin:20px 0;}
 .main_v{ max-height:800px; overflow:hidden;}
 
 .navbar{position:fixed; width:100%; margin-top:-20px}
-.animated {opacity: 0;}
+.animated {opacity: 1;}
 
 @media print {
 	.animated {

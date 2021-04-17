@@ -14,5 +14,5 @@ window.onload = function(){
 				$(this).addClass('scrollin');
 			}
 		});
-	});
-});
+	};
+};

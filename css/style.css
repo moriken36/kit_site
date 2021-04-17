@@ -11,13 +11,9 @@ body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 
 .textopen{font-size:25px;font-weight:1500;text-align: center;}
 .contents{height:725px;background-color: rgba(51, 54, 92, 0.5);margin-top:20px;}
-
 .top{width: 17%;margin:15% 8% 0px 8%;padding-top: 6%;}
 
-
-
 .box-text{margin-left:35%;margin-right:10%;font-size:15px;font-weight: 1200;letter-spacing: 0.9em;line-height: 1.5em;color: white;}
-
 .box-text p{float:left;z-index: 1;}
 
 
@@ -25,16 +21,12 @@ body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 
 
 .bottom{margin-top:330px;margin-left:23%;border:solid 2px rgb(58, 66, 80);border-right: unset;position:absolute;}
-
 .box-img{opacity:0.8px;}
-
 .bottom p{font-size:12px;font-weight:500;text-align: right;color: rgb(4, 22, 56);}
 
 #about{position:absolute;font-size:15vw;font-weight: 2000;font-style: inherit;transform:scale(1,1.8);color: rgba(162, 163, 182, 0.6);padding-top:170px;}
 
-
-.bottom-space{margin-bottom:300px;}
-
+.bottom-space{margin-bottom:400px;}
 .clr{margin-top: 50px;}
 
 

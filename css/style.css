@@ -50,6 +50,14 @@ body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 	.box-text{margin-left:10%;font-size:13px;}
 	.bottom{margin:5% 0px 0px 0px;border-left:unset;border-bottom: unset;}
 }
+
+/* 色 */
+.wh{ background:#FFF; color:#000; border: solid 1px #b2995a;}
+.bl{ background:#000; color:#FFF;}
+
+.wh a{ text-decoration:none; color:#000;}
+.bl a{ text-decoration:none; color:#FFF;}
+
 /* フォント */
 p, li{line-height:1.75;}
 html{ font-size:13px; font-family: "Sawarabi Mincho"; background:#000; letter-spacing:0.05em;}
@@ -73,6 +81,13 @@ h3{ font-size:35px; margin:20px 0;}
 .tog{ display:none;}
 .tog ul{ padding:15px;}
 
+/* レイアウト */
+.box{ margin:0 3.125%; overflow:hidden;}
+.band{ margin-bottom:70px;}
+
+#topics .wh{ padding:10px 10px 20px 10px; margin-bottom:30px;}
+#topics  h3{ border-bottom:solid thin #b2995a;}
+#topics ul li{ text-align:center;}
 
 /* フッター部分 */
 footer{ border-top: solid thin #b2995a;}
@@ -86,8 +101,17 @@ footer p{ text-align:center; padding:5px 0;}
 	h1{ text-align:left;}
 	h2{ margin:100px 0 80px 0; font-size:40px;}
 
+	/* レイアウト */
+	.box{ margin:0 auto; max-width:1080px;}
+	.band{ margin-bottom:300px;}
+
 	.twoway{ width:48.88888%; float:left; margin-right:2.222222%;}
 	.twoway:nth-child(2n){ margin-right:0;}
+
+	/* トピックス部分 */
+	#topics .wh{ padding:15px; margin-bottom:60px; overflow:hidden; }
+	#topics .2way ul li{ line-height:2.28;}
+	#topics  h3{ font-size:21px; margin-bottom:15px; padding-bottom:15px; border-bottom:solid thin #b2995a;}
 
 	/* PCアコーディオンメニュー部分 */
 	.menu dl{border-top:none;}

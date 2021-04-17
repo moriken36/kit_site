@@ -33,7 +33,7 @@ body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 #about{position:absolute;font-size:15vw;font-weight: 2000;font-style: inherit;transform:scale(1,1.8);color: rgba(162, 163, 182, 0.6);padding-top:170px;}
 
 
-.bottom-space{margin-bottom:800px;}
+.bottom-space{margin-bottom:300px;}
 
 .clr{margin-top: 50px;}
 
@@ -49,7 +49,7 @@ body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 }
 
 /* 色 */
-.wh{ background:#FFF; color:#000; border: solid 1px #b2995a;}
+.wh{ background:#FFF; color:#000; border: solid 1px black;}
 .bl{ background:#000; color:#FFF;}
 
 .wh a{ text-decoration:none; color:#000;}
@@ -59,7 +59,7 @@ body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 p, li{line-height:1.75;}
 html{ font-size:13px; font-family: "Sawarabi Mincho"; background:#000; letter-spacing:0.05em;}
 h1{ color:#FFF; text-align:center; margin-top:1rem; font-size:10px;}
-h2, h3{ color:#b2995a; text-align:center;}
+h2, h3{ color:black text-align:center;}
 h2{ margin:30px 0 25px 0; font-size:21px;}
 h3{ font-size:35px; margin:20px 0;}
 
@@ -108,7 +108,7 @@ footer p{ text-align:center; padding:5px 0;}
 	/* トピックス部分 */
 	#topics .wh{ padding:15px; margin-bottom:60px; overflow:hidden; }
 	#topics .2way ul li{ line-height:2.28;}
-	#topics  h3{ font-size:21px; margin-bottom:15px; padding-bottom:15px; border-bottom:solid thin #b2995a;}
+	#topics  h3{ font-size:21px; margin-bottom:15px; padding-bottom:15px; border-bottom:solid thin black;}
 
 	/* PCアコーディオンメニュー部分 */
 	.menu dl{border-top:none;}

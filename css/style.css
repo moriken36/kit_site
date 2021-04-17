@@ -16,7 +16,7 @@ body{ font-size:14px; line-height:1.5; font-family: 'Vollkorn', serif;}
 .box-text{margin-left:35%;margin-right:10%;font-size:15px;font-weight: 1200;letter-spacing: 0.9em;line-height: 1.5em;color: white;}
 .box-text p{float:left;z-index: 1;}
 
-
+.event{height: 700px; background-color: linear-gradient(-135deg, #222222, #000000)}
 
 
 
